@@ -12,6 +12,8 @@ Text Domain: sakura
 Tags: 樱花庄的白猫
 */
 
+#banner_wave_2{width:auto;height:80px;background:url("https://cdn.jsdelivr.net/gh/moezx/cdn@3.5.1/img/Sakura/images/wave2.png") repeat-x;_filter:alpha(opacity=80);position:absolute;bottom:0;width:400%;left:0;z-index:4;opacity:1;transiton-property:opacity,bottom;transition-duration:.4s,.4s}
+
 .headertop-down {
 	position: absolute;
 	bottom: 50px;
