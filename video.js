@@ -1,0 +1,20 @@
+$(document).ready(function(){
+  $("#video-btns").click(function(){
+    $(".modal-wrapper").addClass("videoplayer");
+    $(".modal-mask").addClass("add");
+    $.ajax({url:"https://www.bakary.cn/wp-content/themes/Sakura-3.3.8/Sakura-3.3.8/video.php"});
+  });
+});
+$(document).ready(function(){
+  $(".modal-close-button").click(function(){
+    $(".modal-close-button").addClass("videoplayer-closs");
+    $(".modal-wrapper").addClass("videoplayer-closs");
+    $(".modal-mask").addClass("videoplayer-closs");
+    $(".modal-close-button").removeClass("videoplayer");
+    $(".modal-wrapper").removeClass("videoplayer");
+    $(".modal-close-button").removeClass("videoplayer-closs");
+    $(".modal-wrapper").removeClass("videoplayer-closs");
+    $(".modal-mask").removeClass("add");
+    $(".modal-mask").removeClass("videoplayer-closs");
+  });
+});

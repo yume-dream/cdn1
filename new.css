@@ -12,6 +12,22 @@ Text Domain: sakura
 Tags: Ó£»¨×¯µÄ°×Ã¨
 */
 
+#video-btns {
+    position: absolute;
+    bottom: 3px;
+    right: 5px;
+    width: 32px;
+    height: 32px;
+    z-index: 100;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    opacity: .8;
+    -moz-animation: poi-face 10s linear infinite alternate;
+    -webkit-animation: poi-face 10s linear infinite alternate;
+    -o-animation: poi-face 10s linear infinite alternate;
+    animation: poi-face 10s linear infinite alternate
+}
 .site-header.no-select.yya .lower-cantiner {
 	display: block;
 }
